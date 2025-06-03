@@ -2,36 +2,35 @@ export default {
     index: {
         title: "你好，我是",
         me: [
-            "田琪扬",
-            "Web前端开发实习生",
-            "前端狂热粉"
+            "杨蒙辉",
+            "Web前端开发工程师"
         ],
         bg: "./images/bg.jpg",
         subTitle: "即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气",
         contact: [{
                 name: "Blog",
                 icon: "fa-wordpress",
-                link: "https://blog.n0ts.cn/"
+                link: "https://moderations.github.io/index.html"
             },
             {
                 name: "Email",
                 icon: "fa-envelope",
-                link: "mailto:mail@n0ts.cn"
+                link: "mailto:40919157@qq.com"
             },
-            {
-                name: "Gitee",
-                icon: "fa-github",
-                link: "https://gitee.com/n0ts"
-            },
+            // {
+            //     name: "Gitee",
+            //     icon: "fa-github",
+            //     link: "https://gitee.com/n0ts"
+            // },
             {
                 name: "QQ",
                 icon: "fa-qq",
-                link: "https://wpa.qq.com/msgrd?v=3&uin=1656071287&site=qq&menu=yes"
+                link: "https://wpa.qq.com/msgrd?v=3&uin=40919157&site=qq&menu=yes"
             }
         ],
         loadMore: {
             text: "了解更多",
-            class: "lovexhj2"
+            class: "resume2"
         }
     },
     about: {
@@ -71,7 +70,7 @@ export default {
         ],
         loadMore: {
             text: "继续浏览",
-            class: "lovexhj3"
+            class: "resume3"
         }
     },
     project: {
@@ -372,12 +371,12 @@ export default {
                 </ul>`,
             },
             {
-                name: "lovexhj",
+                name: "resume",
                 text: "送给另一半的",
                 nb: [
                     "HTML", "CSS", "Js"
                 ],
-                url: "https://lovexhj.cn/",
+                url: "https://resume.cn/",
                 img: "./images/xhj1.png",
                 content: `<h2>项目类型</h2>
                 <p>练手单页</p>
@@ -432,26 +431,26 @@ export default {
         listLoadMore: "查看",
         loadMore: {
             text: "继续浏览",
-            class: "lovexhj4"
+            class: "resume4"
         }
     },
     contact: {
         title: "联系我",
         list: [{
                 name: "博客",
-                context: "blog.n0ts.cn"
+                context: "https://moderations.github.io/index.html"
             },
             {
                 name: "邮箱",
-                context: "mail@n0ts.cn"
+                context: "40919157@qq.com"
             },
             {
                 name: "QQ",
-                context: "1656071287"
+                context: "40919157"
             },
             {
                 name: "微信",
-                context: "n0tssss"
+                context: "Yangmenghui920"
             }
         ]
     }
